@@ -6852,6 +6852,7 @@ html:not(.tablet):not(.mobile) .profile-minimal-caption {
 	font-size: 35px;
 	line-height: 1;
 	color: #ebb85e;
+	margin-top: 15px;
 }
 
 .counter-minimal-main {
