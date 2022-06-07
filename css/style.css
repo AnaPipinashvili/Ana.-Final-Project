@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
 
 /* user  Post style  */
 #ul{
@@ -1923,8 +1930,8 @@ img {
 }
 
 .icon-creative[class*='instagram']::after {
-	background: -webkit-gradient(linear, left bottom, left top, from(#f15823), to(#a7058e));
 	background: -o-linear-gradient(bottom, #f15823 0%, #a7058e 100%);
+	background: -webkit-gradient(linear, left bottom, left top, from(#f15823), to(#a7058e));
 	background: linear-gradient(to top, #f15823 0%, #a7058e 100%);
 }
 
@@ -3399,8 +3406,8 @@ textarea.form-input {
 	left: 0;
 	z-index: 1;
 	opacity: .3;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#000));
 	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#000));
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000 100%);
 }
 
@@ -7594,8 +7601,8 @@ html:not(.tablet):not(.mobile) .profile-minimal-caption {
 		bottom: 0;
 		left: 0;
 		pointer-events: none;
-		background: -webkit-gradient(linear, left top, right top, from(rgba(44, 44, 44, 0.6)), to(rgba(44, 44, 44, 0.2)));
 		background: -o-linear-gradient(left, rgba(44, 44, 44, 0.6), rgba(44, 44, 44, 0.2));
+		background: -webkit-gradient(linear, left top, right top, from(rgba(44, 44, 44, 0.6)), to(rgba(44, 44, 44, 0.2)));
 		background: linear-gradient(to right, rgba(44, 44, 44, 0.6), rgba(44, 44, 44, 0.2));
 	}
 }
@@ -7667,8 +7674,8 @@ html:not(.tablet):not(.mobile) .profile-minimal-caption {
 		bottom: 0;
 		left: 0;
 		pointer-events: none;
-		background: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 44, 44, 0.4)), to(rgba(44, 44, 44, 0)));
 		background: -o-linear-gradient(top, rgba(44, 44, 44, 0.4), rgba(44, 44, 44, 0));
+		background: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 44, 44, 0.4)), to(rgba(44, 44, 44, 0)));
 		background: linear-gradient(to bottom, rgba(44, 44, 44, 0.4), rgba(44, 44, 44, 0));
 	}
 }
@@ -8536,8 +8543,8 @@ html [class*='section-'].section-bottom-0 {
 @media (max-width: 767.98px) {
 	.section-overlap-content .container {
 		padding: 20px 15px;
-		background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.8)));
 		background: -o-linear-gradient(left, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8));
+		background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.8)));
 		background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8));
 	}
 	.section-overlap-content .container > * {
@@ -8561,8 +8568,8 @@ html [class*='section-'].section-bottom-0 {
 		left: 0;
 		z-index: 1;
 		pointer-events: none;
-		background: -webkit-gradient(linear, right top, left top, from(rgba(245, 246, 250, 0.4)), to(rgba(245, 246, 250, 0)));
 		background: -o-linear-gradient(right, rgba(245, 246, 250, 0.4), rgba(245, 246, 250, 0));
+		background: -webkit-gradient(linear, right top, left top, from(rgba(245, 246, 250, 0.4)), to(rgba(245, 246, 250, 0)));
 		background: linear-gradient(to left, rgba(245, 246, 250, 0.4), rgba(245, 246, 250, 0));
 	}
 }
@@ -8636,8 +8643,8 @@ html [class*='section-'].section-bottom-0 {
 	left: 0;
 	z-index: 1;
 	pointer-events: none;
-	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.4)));
 	background: -o-linear-gradient(left, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4));
+	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.4)));
 	background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4));
 }
 
